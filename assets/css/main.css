@@ -1657,10 +1657,14 @@
 
 	p {
 		margin: 0 0 2rem 0;
+		color: #000;
 	}
 
 		p:last-child {
 			margin: 0;
+		}
+		p.white{
+			color: #ffffff;
 		}
 
 		p.special {
@@ -2449,6 +2453,7 @@
 
 		ul li {
 			padding-left: 0.5rem;
+			color: #000;
 		}
 
 		ul.alt {
@@ -2470,6 +2475,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			color: black;
 		}
 
 			ul.icons li {
